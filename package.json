@@ -1,14 +1,11 @@
 {
     "name": "pungent",
-    "homepage": "https://rabikhan1.github.io/unique-associates",
     "version": "1.9.0",
     "description": "Pungent - React Multipurpose Startup & Digital Agency Template",
     "main": "index.js",
     "scripts": {
         "dev": "next",
         "build": "next build",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
         "export": "next export",
         "start": "next start"
     },
