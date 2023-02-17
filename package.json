@@ -1,11 +1,14 @@
 {
     "name": "pungent",
+    "homepage": "https://rabikhan1.github.io/unique-associates",
     "version": "1.9.0",
     "description": "Pungent - React Multipurpose Startup & Digital Agency Template",
     "main": "index.js",
     "scripts": {
         "dev": "next",
         "build": "next build",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "export": "next export",
         "start": "next start"
     },
@@ -15,6 +18,7 @@
         "animate.css": "^4.1.1",
         "aos": "^2.3.4",
         "axios": "^0.21.4",
+        "gh-pages": "^5.0.0",
         "next": "^12.1.6",
         "nodemailer": "^6.7.1",
         "nodemailer-sendgrid-transport": "^0.2.0",
