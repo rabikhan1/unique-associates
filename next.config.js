@@ -8,7 +8,7 @@ module.exports = {
         ignoreDuringBuilds: true,
     },
     sassOptions: {
-        includePaths: [path.join(__dirname, 'styles/style.css')],
+        includePaths: [path.join(__dirname, 'styles')],
     },
     trailingSlash: true,
     optimizeFonts: false,
