@@ -9,5 +9,5 @@ module.exports = {
     optimizeFonts: false,
 }
 module.exports = {
-    basePath: 'https://rabikhan1.github.io/unique-associates/' || '',
+    basePath: 'https://rabikhan1.github.io/' || '',
   };
