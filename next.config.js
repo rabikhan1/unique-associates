@@ -9,13 +9,5 @@ module.exports = {
     optimizeFonts: false,
 }
 module.exports = {
-    async rewrites() {
-      return [
-        {
-          source: '/',
-          destination: '/'
-        }
-      ]
-    }
-  }
-  
+    basePath: 'https://rabikhan1.github.io/unique-associates/' || '',
+  };
