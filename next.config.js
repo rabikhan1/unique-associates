@@ -12,8 +12,8 @@ module.exports = {
     async rewrites() {
       return [
         {
-          source: 'https://rabikhan1.github.io/unique-associates/:path*',
-          destination: 'https://rabikhan1.github.io/unique-associates/:path*'
+          source: '/',
+          destination: '/'
         }
       ]
     }
