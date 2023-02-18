@@ -12,8 +12,8 @@ module.exports = {
     async rewrites() {
       return [
         {
-          source: '/uique-associates:path*',
-          destination: '/uique-associates:path*'
+          source: 'https://rabikhan1.github.io/unique-associates/:path*',
+          destination: 'https://rabikhan1.github.io/unique-associates/:path*'
         }
       ]
     }
