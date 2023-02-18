@@ -12,8 +12,8 @@ module.exports = {
     async rewrites() {
       return [
         {
-          source: '/:path*',
-          destination: '/:path*'
+          source: '/uique-associates:path*',
+          destination: '/uique-associates:path*'
         }
       ]
     }
