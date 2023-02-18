@@ -71,7 +71,7 @@ class ServicesStyleOne extends Component {
   <div className="fleet-grid-box">
     {/*Fleet Grid Thumb Start*/}
     <figure className="fleet-thumb">
-      <img src="/images/CTA1-bg.jpg" alt />
+      <img src="./images/CTA1-bg.jpg" alt />
       <figcaption className="fleet-caption">
        
         <span className="rated">Top Rated</span>
