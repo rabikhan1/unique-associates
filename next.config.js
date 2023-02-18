@@ -8,11 +8,3 @@ module.exports = {
     trailingSlash: true,
     optimizeFonts: false,
 }
-
-module.exports = {
-    // …
-    images: {
-      loader: 'imgix',
-      path: 'the "domain" of your Imigix source',
-    },
-  }
