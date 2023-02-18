@@ -1247,7 +1247,7 @@ Main Banner CSS
 
 .hero-bg1 {
   background-position: center center;
-  background-image: url(public/images/CTA1-bg.jpg);
+  background-image: url(/images/CTA1-bg.jpg);
 }
 
 .hero-bg2 {
@@ -1297,7 +1297,7 @@ Main Banner CSS
 
 .hero-bg11 {
   background-position: center center;
-  background-image: url(/images/hero-banner11.jpg);
+  background-image: url(/public/images/hero-banner11.jpg);
 }
 
 .hero-bg12 {

@@ -30,7 +30,7 @@ class MainBanner extends Component {
           className="mySwiper hero-slider"
         >
           <SwiperSlide>
-            <div className="hero-banner overly hero-bg1">
+            <div className="hero-banner overly hero-bg11">
               <div className="d-table">
                 <div className="d-table-cell">
                   <div className="container">
