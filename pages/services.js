@@ -20,7 +20,6 @@ class Services extends Component {
 
                 <CtaAreaTwo />
 
-                <Footer />
             </>
         );
     }

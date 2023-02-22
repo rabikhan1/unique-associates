@@ -8,91 +8,91 @@ class ServicesStyleOne extends Component {
                 <div className="bg-fcfbfb pt-100 pb-70">
                     <div className="container">
                         <div className="row justify-content-center">
-                            <div className="col-lg-3 col-sm-6">
-  <div className="fleet-grid-box">
-    {/*Fleet Grid Thumb Start*/}
-    <figure className="fleet-thumb">
-      <img src="/images/CTA1-bg.jpg" alt />
-      <figcaption className="fleet-caption">
-       
-        <span className="rated">Top Rated</span>
-      </figcaption>
-    </figure>
-    {/*Fleet Grid Thumb End*/}
-    {/*Fleet Grid Text Start*/}
-    <div className="fleet-info-box">
-      <div className="fleet-info">
-        <h3>5 marla Plot</h3>
-       
-        <ul className="fleet-meta">
-          <li><i className="fas fa-taxi" />residential</li>
-          <li><i className="fas fa-user-circle" />Facing Park</li>
-        </ul>
-      </div>
-      <a href="booking-form.html" className="tj-btn">Book Now <i className="fa fa-arrow-circle-right" aria-hidden="true" /></a>
-    </div>
-    {/*Fleet Grid Text End*/}
-  
-</div>
+                            <div className="col-lg-4 col-sm-6">
+                                <div className="fleet-grid-box">
+                                    {/*Fleet Grid Thumb Start*/}
+                                    <figure className="fleet-thumb">
+                                        <img src="/images/CTA1-bg.jpg" alt />
+                                        <figcaption className="fleet-caption">
+
+                                            <span className="rated">Top Rated</span>
+                                        </figcaption>
+                                    </figure>
+                                    {/*Fleet Grid Thumb End*/}
+                                    {/*Fleet Grid Text Start*/}
+                                    <div className="fleet-info-box">
+                                        <div className="fleet-info">
+                                            <h3>5 marla Plot</h3>
+
+                                            <ul className="fleet-meta">
+                                                <li><i className="fas fa-taxi" />residential</li>
+                                                <li><i className="fas fa-user-circle" />Facing Park</li>
+                                            </ul>
+                                        </div>
+                                        <a href="booking-form.html" className="tj-btn">Book Now <i className="fa fa-arrow-circle-right" aria-hidden="true" /></a>
+                                    </div>
+                                    {/*Fleet Grid Text End*/}
+
+                                </div>
 
                             </div>
 
+                            {/* #224980 #45B5D4 #2A2F61 */}
 
+                            <div className="col-lg-4 col-sm-6">
+                                <div className="fleet-grid-box">
+                                    {/*Fleet Grid Thumb Start*/}
+                                    <figure className="fleet-thumb">
+                                        <img src="/images/CTA1-bg.jpg" alt />
+                                        <figcaption className="fleet-caption">
 
-                            <div className="col-lg-3 col-sm-6">
-  <div className="fleet-grid-box">
-    {/*Fleet Grid Thumb Start*/}
-    <figure className="fleet-thumb">
-      <img src="/images/CTA1-bg.jpg" alt />
-      <figcaption className="fleet-caption">
-       
-        <span className="rated">Top Rated</span>
-      </figcaption>
-    </figure>
-    {/*Fleet Grid Thumb End*/}
-    {/*Fleet Grid Text Start*/}
-    <div className="fleet-info-box">
-      <div className="fleet-info">
-        <h3>5 marla Plot</h3>
-       
-        <ul className="fleet-meta">
-          <li><i className="fas fa-taxi" />residential</li>
-          <li><i className="fas fa-user-circle" />Facing Park</li>
-        </ul>
-      </div>
-      <a href="booking-form.html" className="tj-btn">Book Now <i className="fa fa-arrow-circle-right" aria-hidden="true" /></a>
-    </div>
-    {/*Fleet Grid Text End*/}
-  
-</div>
+                                            <span className="rated">Top Rated</span>
+                                        </figcaption>
+                                    </figure>
+                                    {/*Fleet Grid Thumb End*/}
+                                    {/*Fleet Grid Text Start*/}
+                                    <div className="fleet-info-box">
+                                        <div className="fleet-info">
+                                            <h3>5 marla Plot</h3>
+
+                                            <ul className="fleet-meta">
+                                                <li><i className="fas fa-taxi" />residential</li>
+                                                <li><i className="fas fa-user-circle" />Facing Park</li>
+                                            </ul>
+                                        </div>
+                                        <a href="booking-form.html" className="tj-btn">Book Now <i className="fa fa-arrow-circle-right" aria-hidden="true" /></a>
+                                    </div>
+                                    {/*Fleet Grid Text End*/}
+
+                                </div>
 
                             </div>
-                            <div className="col-lg-3 col-sm-6">
-  <div className="fleet-grid-box">
-    {/*Fleet Grid Thumb Start*/}
-    <figure className="fleet-thumb">
-      <img src="/images/CTA1-bg.jpg" alt />
-      <figcaption className="fleet-caption">
-       
-        <span className="rated">Top Rated</span>
-      </figcaption>
-    </figure>
-    {/*Fleet Grid Thumb End*/}
-    {/*Fleet Grid Text Start*/}
-    <div className="fleet-info-box">
-      <div className="fleet-info">
-        <h3>5 marla Plot</h3>
-       
-        <ul className="fleet-meta">
-          <li><i className="fas fa-taxi" />residential</li>
-          <li><i className="fas fa-user-circle" />Facing Park</li>
-        </ul>
-      </div>
-      <a href="booking-form.html" className="tj-btn">Book Now <i className="fa fa-arrow-circle-right" aria-hidden="true" /></a>
-    </div>
-    {/*Fleet Grid Text End*/}
-  
-</div>
+                            <div className="col-lg-4 col-sm-6">
+                                <div className="fleet-grid-box">
+                                    {/*Fleet Grid Thumb Start*/}
+                                    <figure className="fleet-thumb">
+                                        <img src="/images/CTA1-bg.jpg" alt />
+                                        <figcaption className="fleet-caption">
+
+                                            <span className="rated">Top Rated</span>
+                                        </figcaption>
+                                    </figure>
+                                    {/*Fleet Grid Thumb End*/}
+                                    {/*Fleet Grid Text Start*/}
+                                    <div className="fleet-info-box">
+                                        <div className="fleet-info">
+                                            <h3>5 marla Plot</h3>
+
+                                            <ul className="fleet-meta">
+                                                <li><i className="fas fa-taxi" />residential</li>
+                                                <li><i className="fas fa-user-circle" />Facing Park</li>
+                                            </ul>
+                                        </div>
+                                        <a href="booking-form.html" className="tj-btn">Book Now <i className="fa fa-arrow-circle-right" aria-hidden="true" /></a>
+                                    </div>
+                                    {/*Fleet Grid Text End*/}
+
+                                </div>
 
                             </div>
 
