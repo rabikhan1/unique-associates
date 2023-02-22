@@ -6,7 +6,8 @@ const ModalVideo = dynamic(() => import("react-modal-video"), {
 import VisibilitySensor from "react-visibility-sensor";
 import dynamic from "next/dynamic";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
+import { Autoplay,Navigation, Pagination, Mousewheel, Keyboard,  } from "swiper";
+
 class MainBanner extends Component {
   state = {
     isOpen: false,
@@ -21,12 +22,19 @@ class MainBanner extends Component {
         <Swiper
           cssMode={true}
           navigation={true}
+          // loopedSlides={0.4}
+          slidesPerView
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           pagination={{
             clickable: true,
           }}
           mousewheel={true}
           keyboard={true}
-          modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+          modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
           className="mySwiper hero-slider"
         >
           <SwiperSlide>

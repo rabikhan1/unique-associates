@@ -963,7 +963,7 @@ Main Banner CSS
 .hero-banner.overly::before {
   content: "";
   background-color: #18181b;
-  opacity: .70;
+  opacity: .50;
   position: absolute;
   left: 0;
   top: 0;
@@ -995,7 +995,7 @@ Main Banner CSS
 }
 
 .hero-banner .main-banner-content.left {
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .hero-banner .main-banner-content span {
@@ -1005,16 +1005,20 @@ Main Banner CSS
 .hero-banner .main-banner-content h1 {
   color: #ffffff;
   font-size: 80px;
+  margin-left: -10%;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .hero-banner .main-banner-content p {
   color: #ffffff;
-  margin-bottom: 30px;
+  margin-left: -6%;
+  /* margin-bottom: 30px; */
   font-size: 19px;
 }
 
 .hero-banner .main-banner-content .btn {
   margin-top: 15px;
+  margin-left: -8%;
 }
 
 .hero-banner .main-banner-content .btn-primary {
