@@ -15,7 +15,8 @@ class Footer extends Component {
                                         <Link href="/">
                                             <a>
                                                 <img 
-                                                    src="/images/Unique-logo.jpeg" 
+                                                style={{width:"110px"}}
+                                                    src="/images/Unique-logo.png" 
                                                     alt="Logo" 
                                                 />
                                             </a>
