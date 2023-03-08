@@ -506,7 +506,7 @@ Navbar CSS
   bottom: -5px;
   width: 0;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   height: 3px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -570,7 +570,7 @@ Navbar CSS
 }
 
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #ff2c9c;
+  color: #2A2F61;
 }
 
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -586,7 +586,7 @@ Navbar CSS
 }
 
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .navbar-area nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .navbar-area nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #ff2c9c;
+  color: #2A2F61;
 }
 
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
@@ -616,7 +616,7 @@ Navbar CSS
   padding-right: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #e5e5e5 !important;
+  border-bottom: 1px solid #2A2F61 !important;
   display: block;
 }
 
@@ -656,8 +656,8 @@ Navbar CSS
 }
 
 .navbar-area.navbar-style-two nav .others-options .btn {
-  color: #ffffff;
-  border-color: #ffffff;
+  color: #c9cdf3;
+  border-color: #2f324d;
 }
 
 .navbar-area.navbar-style-two nav .others-options .btn:hover, .navbar-area.navbar-style-two nav .others-options .btn:focus {
@@ -714,14 +714,14 @@ Navbar CSS
   padding-top: 2px;
   z-index: 999;
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
-          box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 2px 28px 0 rgba(17, 13, 13, 0.06);
   background-color: #ffffff !important;
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
           animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 
 .navbar-area.navbar-style-2 nav .navbar-brand {
-  color: #ffffff;
+  color: #c9cdf3;
 }
 
 .navbar-area.navbar-style-2 nav .navbar-brand .black-logo {
@@ -734,7 +734,7 @@ Navbar CSS
 }
 
 .navbar-area.navbar-style-2 nav .navbar-nav .nav-item a {
-  color: #ffffff;
+  color: #c9cdf3;
 }
 
 .navbar-area.navbar-style-2.is-sticky .navbar-brand {
@@ -750,7 +750,7 @@ Navbar CSS
 }
 
 .navbar-area.navbar-style-2.is-sticky .navbar-nav > .nav-item > a {
-  color: #18181b;
+  color: #484883;
 }
 
 .navbar-area.navbar-style-3 .container {
@@ -803,7 +803,7 @@ Navbar CSS
   width: 28px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background: #ff2c9c;
+  background: #224980;
   height: 2px;
   display: block;
 }
