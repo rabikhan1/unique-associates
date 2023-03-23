@@ -266,7 +266,7 @@ a:hover, a:focus {
   width: 0;
   height: 100%;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   z-index: -1;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -397,7 +397,7 @@ label {
   height: 100%;
   text-align: center;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
 }
 
 .preloader .spinner {
@@ -872,7 +872,7 @@ Main Banner CSS
   width: 100%;
   height: 100%;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   z-index: -1;
   opacity: .70;
 }
@@ -1680,7 +1680,7 @@ Featured Services CSS
   width: 100%;
   height: 100%;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   z-index: -1;
   opacity: 0;
   visibility: hidden;
@@ -2180,7 +2180,7 @@ Case Studies CSS
   transition: all 0.5s ease;
   height: 2px;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
 }
 
 .tab .tabs li span:hover, .tab .tabs li span:focus {
@@ -2351,7 +2351,7 @@ Case Studies CSS
 
 .work-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   border: 1px solid #ff2c9c;
 }
 
@@ -2420,7 +2420,7 @@ Services CSS
 
 .services-inner {
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   padding-top: 110px;
   width: 100%;
   height: 100%;
@@ -2545,7 +2545,7 @@ Services CSS
   right: 0;
   margin: 0 auto;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   z-index: -1;
   border-radius: 50%;
   -webkit-transition: all 0.5s ease;
@@ -2853,7 +2853,7 @@ Portfolio Details CSS
   left: 0;
   top: 11px;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -2907,7 +2907,7 @@ Feedback CSS
 
 .feedback-list .quotes-icon {
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   margin: 0 auto;
   width: 70px;
   height: 70px;
@@ -2941,7 +2941,7 @@ Feedback CSS
   height: 35px;
   width: 2px;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
 }
 
 .single-feedback h3 {
@@ -2980,7 +2980,7 @@ Feedback CSS
 
 .feedback-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   border: 1px solid #ff2c9c;
 }
 
@@ -3240,7 +3240,7 @@ Team CSS
   right: 0;
   margin: 0 auto;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   width: 0;
   height: 0;
   z-index: -1;
@@ -3259,7 +3259,7 @@ Team CSS
 
 .single-team .team-content {
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   padding: 25px 30px;
 }
 
@@ -3347,7 +3347,7 @@ Team CSS
 .team-card .team-img .social-links {
   position: absolute;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   width: 100%;
   height: 0%;
   top: 0;
@@ -3463,7 +3463,7 @@ Pricing CSS
   height: 100%;
   border-radius: 5px 5px 0 0;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.5s ease;
@@ -3903,7 +3903,7 @@ CTA CSS
 
 .cta-area.bg-gradient {
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00)) !important;
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00) !important;
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61) !important;
 }
 
 .cta-area.bg-gradient .cta-content h3 {
@@ -3956,7 +3956,7 @@ CTA CSS
 
 .cta-area-two::before {
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -4219,7 +4219,7 @@ Subscribe CSS
   left: 0;
   top: 0;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   opacity: .90;
 }
 
@@ -4256,7 +4256,7 @@ Subscribe CSS
 .newsletter-inner-area .newsletter-content .newsletter-form button {
   position: absolute;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   color: #ffffff;
   border: none;
   top: 0;
@@ -4634,7 +4634,7 @@ Blog CSS
 
 .blog-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   border: 1px solid #ff2c9c;
 }
 
@@ -4716,7 +4716,7 @@ Blog Details CSS
   width: 100%;
   height: 100%;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   z-index: -1;
   border-radius: 5px;
   opacity: 0;
@@ -4772,7 +4772,7 @@ blockquote cite::before {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   left: 0;
   width: 10px;
   height: 2px;
@@ -4814,7 +4814,7 @@ blockquote cite::before {
   width: 100%;
   height: 100%;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   z-index: -1;
   border-radius: 5px;
   opacity: 0;
@@ -4888,7 +4888,7 @@ blockquote cite::before {
   width: 100%;
   height: 100%;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.5s ease;
@@ -5058,7 +5058,7 @@ blockquote cite::before {
 
 .comments-area .comment-respond .form-submit input {
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   border: 1px solid #ff2c9c;
   color: #ffffff;
   padding: 11px 25px;
@@ -5642,7 +5642,7 @@ Sidebar CSS
 
 .widget-area .widget ul li::before {
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   height: 7px;
   width: 7px;
   content: '';
@@ -6263,7 +6263,7 @@ Footer CSS
   right: 0;
   margin: 0 auto;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   width: 0;
   height: 0;
   z-index: -1;
@@ -6298,7 +6298,7 @@ Footer CSS
   width: 55px;
   height: 3px;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
 }
 
 .single-footer-widget h3::after {
@@ -6334,7 +6334,7 @@ Footer CSS
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   width: 10px;
   height: 2px;
   opacity: 0;
@@ -6379,7 +6379,7 @@ Footer CSS
   line-height: 35px;
   color: #ffffff;
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   border-radius: 50%;
   text-align: center;
   position: absolute;
@@ -6657,7 +6657,7 @@ span.new {
 
 .quotes-slides .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: -webkit-gradient(linear, right bottom, left top, from(#ff2c9c), color-stop(#ff287b), color-stop(#ff395a), color-stop(#ff5137), to(#ff6a00));
-  background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+  background: linear-gradient(to left top,  #45B5D4,  #40a2bd,  #224980 , #363b7c, #2A2F61);
   border: 1px solid #ff2c9c;
 }
 
