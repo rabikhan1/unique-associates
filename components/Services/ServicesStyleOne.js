@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-
+import { plotData } from '../../public/Data/PlotData';
 class ServicesStyleOne extends Component {
     render() {
         return (
@@ -8,94 +8,41 @@ class ServicesStyleOne extends Component {
                 <div className="bg-fcfbfb pt-100 pb-70">
                     <div className="container">
                         <div className="row justify-content-center">
+                            {plotData.map(p => 
                             <div className="col-lg-4 col-sm-6">
                                 <div className="fleet-grid-box">
                                     {/*Fleet Grid Thumb Start*/}
                                     <figure className="fleet-thumb">
-                                        <img src="/images/CTA1-bg.jpg" alt />
-                                        <figcaption className="fleet-caption">
+                                        <img src={p.images[1].imgUrl} width='300' height='10' alt='jjjj' />
+                                        {/* <figcaption className="fleet-caption">
 
                                             <span className="rated">Top Rated</span>
-                                        </figcaption>
+                                        </figcaption> */}
                                     </figure>
                                     {/*Fleet Grid Thumb End*/}
                                     {/*Fleet Grid Text Start*/}
                                     <div className="fleet-info-box">
                                         <div className="fleet-info">
-                                            <h3>5 marla Plot</h3>
+                                            <h3>{p.size} marla Plot</h3>
 
                                             <ul className="fleet-meta">
-                                                <li><i className="fas fa-taxi" />residential</li>
-                                                <li><i className="fas fa-user-circle" />Facing Park</li>
+                                                <li><i className="fas fa-taxi" />{p.PlotCategory}</li>
+                                                <li><i className="fas fa-user-circle" />{p.PlotSite}</li>
                                             </ul>
                                         </div>
-                                        <a href="booking-form.html" className="tj-btn">Book Now <i className="fa fa-arrow-circle-right" aria-hidden="true" /></a>
+                                        <a href={`/services/${p.id}`} className="tj-btn">Book Now <i className="fa fa-arrow-circle-right" aria-hidden="true" /></a>
                                     </div>
                                     {/*Fleet Grid Text End*/}
 
                                 </div>
 
                             </div>
+                            )}
+
 
                             {/* #224980 #45B5D4 #2A2F61 */}
 
-                            <div className="col-lg-4 col-sm-6">
-                                <div className="fleet-grid-box">
-                                    {/*Fleet Grid Thumb Start*/}
-                                    <figure className="fleet-thumb">
-                                        <img src="/images/CTA1-bg.jpg" alt />
-                                        <figcaption className="fleet-caption">
-
-                                            <span className="rated">Top Rated</span>
-                                        </figcaption>
-                                    </figure>
-                                    {/*Fleet Grid Thumb End*/}
-                                    {/*Fleet Grid Text Start*/}
-                                    <div className="fleet-info-box">
-                                        <div className="fleet-info">
-                                            <h3>5 marla Plot</h3>
-
-                                            <ul className="fleet-meta">
-                                                <li><i className="fas fa-taxi" />residential</li>
-                                                <li><i className="fas fa-user-circle" />Facing Park</li>
-                                            </ul>
-                                        </div>
-                                        <a href="booking-form.html" className="tj-btn">Book Now <i className="fa fa-arrow-circle-right" aria-hidden="true" /></a>
-                                    </div>
-                                    {/*Fleet Grid Text End*/}
-
-                                </div>
-
-                            </div>
-                            <div className="col-lg-4 col-sm-6">
-                                <div className="fleet-grid-box">
-                                    {/*Fleet Grid Thumb Start*/}
-                                    <figure className="fleet-thumb">
-                                        <img src="/images/CTA1-bg.jpg" alt />
-                                        <figcaption className="fleet-caption">
-
-                                            <span className="rated">Top Rated</span>
-                                        </figcaption>
-                                    </figure>
-                                    {/*Fleet Grid Thumb End*/}
-                                    {/*Fleet Grid Text Start*/}
-                                    <div className="fleet-info-box">
-                                        <div className="fleet-info">
-                                            <h3>5 marla Plot</h3>
-
-                                            <ul className="fleet-meta">
-                                                <li><i className="fas fa-taxi" />residential</li>
-                                                <li><i className="fas fa-user-circle" />Facing Park</li>
-                                            </ul>
-                                        </div>
-                                        <a href="booking-form.html" className="tj-btn">Book Now <i className="fa fa-arrow-circle-right" aria-hidden="true" /></a>
-                                    </div>
-                                    {/*Fleet Grid Text End*/}
-
-                                </div>
-
-                            </div>
-
+                          
                             {/* <div className="col-lg-4 col-sm-6">
                                 <div className="service-card-one">
                                     <i className="pe-7s-display2 bg-6610f2"></i>
