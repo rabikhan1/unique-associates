@@ -1,79 +1,217 @@
-import React, { Component } from 'react';
-import dynamic from 'next/dynamic';
-const ModalVideo = dynamic(() => import('react-modal-video'), {
-    ssr: false
-});
+import React from "react";
+import Link from "next/link";
+import { useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Mousewheel, Keyboard } from "swiper";
+import { Controller } from 'swiper';
+import { plotData } from '../../public/Data/PlotData'
 
-class ServiceDetailsContent extends Component {
-    state = {
-        isOpen: false,
-    }
-    openModal = () => {
-        this.setState({isOpen: true})
-    }
-    render() {
-        return (
-            <>
-                <div className="services-details-area ptb-100">
-                    {/* If you want to change the video need to update below videoID */}
-                    <ModalVideo 
-                        channel='youtube' 
-                        isOpen={this.state.isOpen} 
-                        videoId='_ysd-zHamjk' 
-                        onClose={() => this.setState({isOpen: false})} 
-                    />
 
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12 col-md-12">
-                                <div className="services-details-image">
-                                    <img src="/images/services/single-service.jpg" alt="image" />
 
-                                    <div className="video-box">
-                                        <div
-                                            onClick={e => {e.preventDefault(); this.openModal()}}
-                                            className="video-btn"
-                                        > 
-                                            <i className="fa-solid fa-play"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div className="col-lg-8 col-md-12">
-                                <div className="services-details-desc">
-                                    <h2>Services Description</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+function PortfolioDetailsContent2({ bdetails }) {
+    console.log(plotData)
+    const [mainImage, setMainImage] = useState('/images/hero-banner11.jpg');
 
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</p>
+    let currentYear = new Date().getFullYear();
+    const slideper = plotData[0]?.images?.length
+    console.log(slideper)
+    return (
+        <>
+            <div className="container" >
+                <div className="row d-flex justify-content-" >
 
-                                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter.</p>
-  
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                    <div className="col-lg-8 col-md-12 col-sm-12 pt-3 " data-aos="fade-up"
+                        data-aos-duration="1200"
+                        data-aos-delay="300">
+                        <h2 > {bdetails.plotNo}</h2>
+                        <img className="col-lg-13" data-aos="zoom-in-down"
+                            data-aos-duration="1200"
+                            data-aos-delay="300" src={mainImage} alt='carImg' width='1000' height='400' />
+                       <div >
 
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis.</p>
-                                </div>
-                            </div>
+                        <Swiper
 
-                            <div className="col-lg-4 col-md-12">
-                                <div className="services-details-info">
-                                    <h3>Our Working Process</h3>
-                                    <ul>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</li>
-                                        <li>Creative Team Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</li>
-                                        <li>Branding But I must explain to you how all this mistaken idea of denouncing.</li>
-                                        <li>Clean Code At vero eos et accusamus et iusto odio dignissimos ducimus qui.</li>
-                                        <li>UX/UI Friendly On the other hand, we denounce with righteous indignation.</li>
-                                        <li>24/7 Support There are many variations of passages of Lorem Ipsum available.</li>
+                            navigation={true}
+                            spaceBetween={1}
+                            slidesPerView={4}
+                            pagination={{
+                                clickable: true,
+                            }}
+                            breakpoints={{
+                                0: {
+                                    slidesPerView: 1,
+                                },
+                                276: {
+                                    slidesPerView: 2,
+                                },
+                                768: {
+                                    slidesPerView: 4 ,
+                                },
+                            }}
+                            mousewheel={true}
+                            keyboard={true}
+                            modules={[Navigation, Mousewheel, Keyboard, Controller]}
+                            className="mySwiper app-screenshots-slides"
+                        >
+
+
+
+                            {bdetails?.images?.map(img =>
+                                <SwiperSlide key={img.id} >
+
+
+                                    <img onClick={() => setMainImage(img.imgUrl) + 1} width='250' height='120' src={img.imgUrl} alt="image" data-aos="zoom-out"
+                                        data-aos-duration="1200"
+                                        data-aos-delay="300" />
+
+                                </SwiperSlide>
+                            )}
+
+
+                        </Swiper>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-md-12 col-sm-12 pt-3 " >
+
+                        <div className="row ptb-30" data-aos="fade-up"
+                            data-aos-duration="1200"
+                            data-aos-delay="300">
+                            <h1 style={{fontSize:'65px'}} className="d-flex justify-content-center pb-50 ">
+                                Features
+                            </h1>
+                                    <div className="d-flex justify-content-left">
+                            <div className="col-lg-12 col-md-12 col-sm-12">
+                                <ul style={{ fontSize:'25px', listStyleType: "none" }}>
+                                    <li>
+                                        <span className="icon">
+                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                        </span>
+                                        <span className="spanfont">Corner Plot</span>
+                                    </li>
+                                    <li>
+                                        <span className="icon">
+                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                        </span>
+                                        <span className="spanfont">Facing Park</span>
+                                    </li>
+                                    <li>
+                                        <span className="icon">
+                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                        </span>
+                                        <span className="spanfont">Electricity</span>
+                                    </li>
+                                    {/* <li>
+                                        <span className="icon">
+                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                        </span>
+                                        <span className="spanfont">40ft Road</span>
+                                    </li> */}
+                                    <li>
+                                        <span className="icon">
+                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                        </span>
+                                        <span className="spanfont">Gas</span>
+                                    </li>
                                     </ul>
-                                </div>
+                            </div>
+                            {/* <div className="col-lg-4 col-md-12 col-sm-12 ">
+                                <ul style={{ listStyleType: "none" }}>
+                                    <li>
+                                        <span className="icon">
+                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                        </span>
+                                        <span className="spanfont">Weddings Packages</span>
+                                    </li>
+                                    <li>
+                                        <span className="icon">
+                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                        </span>
+                                        <span className="spanfont">Sight Seeing Packages </span>
+                                    </li>
+                                    <li>
+                                        <span className="icon">
+                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                        </span>
+                                        <span className="spanfont">Tours Service</span>
+                                    </li>
+                                    <li>
+                                        <span className="icon">
+                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                        </span>
+                                        <span className="spanfont">No Hidden Charges</span>
+                                    </li>
+                                    <li>
+                                        <span className="icon">
+                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                        </span>
+                                        <span className="spanfont">Water Bottles</span>
+                                    </li>
+                                    <li>
+                                        <span className="icon">
+                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                        </span>
+                                        <span className="spanfont">NewsPapers Available</span>
+                                    </li>
+                                </ul>
+                            </div> */}
+                            {/* <div className="col-lg-5 col-md-12 col-sm-12">
+                                <ul style={{ listStyleType: "none" }}>
+                                    <li>
+                                        <span className="icon">
+                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                        </span>
+                                        <span className="spanfont">baby seats also available</span>
+                                    </li>
+                                    <li>
+                                        <span className="icon">
+                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                        </span>
+                                        <span className="spanfont">Daily Cleaning</span>
+                                    </li>
+                                    <li>
+                                        <span className="icon">
+                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                        </span>
+                                        <span className="spanfont">Regular Maintenance</span>
+                                    </li>
+                                    <li>
+                                        <span className="icon">
+                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                        </span>
+                                        <span className="spanfont">Three Point Seat belts</span>
+                                    </li>
+                                    <li>
+                                        <span className="icon">
+                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                        </span>
+                                        <span className="spanfont">Fitted Air Bags</span>
+                                    </li>
+                                    <li>
+                                        <span className="icon">
+                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                        </span>
+                                        <span className="spanfont">Latest Model Cars(2021, {currentYear})</span>
+                                    </li>
+                                </ul>
+                            </div> */}
                             </div>
                         </div>
                     </div>
                 </div>
-            </>
-        );
-    }
-}
 
-export default ServiceDetailsContent;
+
+                <div className="justify-content-center d-flex others-options pb-4 mb-4"
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    data-aos-delay="300">
+                    <Link href="/contact">
+                        <a className="btn btn-primary">BOOK NOW</a>
+                    </Link>
+                </div>
+            </div>
+        </>
+    );
+}
+export default PortfolioDetailsContent2;
+
