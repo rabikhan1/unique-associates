@@ -1,7 +1,7 @@
 export const plotData = [
   {
     id:1,
-    PlotNo: "576 A Block",
+    plotNo: "576 A Block",
     PlotCategory:"Residential",
     PlotSite:"Corner",
     size:10,
@@ -25,7 +25,7 @@ export const plotData = [
   },
   {
     id:2,
-    PlotNo: "76 B Block",
+    plotNo: "76 B Block",
     size:10,
     PlotCategory:"Commercial",
     PlotSite:"General",
