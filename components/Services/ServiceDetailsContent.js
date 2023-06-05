@@ -24,7 +24,7 @@ function PortfolioDetailsContent2({ bdetails }) {
                     <div className="col-lg-8 col-md-12 col-sm-12 pt-3 " data-aos="fade-up"
                         data-aos-duration="1200"
                         data-aos-delay="300">
-                        <h2 > {bdetails.plotNo}</h2>
+                        <h2 > {bdetails?.plotNo}</h2>
                         <img className="col-lg-13" data-aos="zoom-in-down"
                             data-aos-duration="1200"
                             data-aos-delay="300" src={mainImage} alt='carImg' width='1000' height='400' />

@@ -22,7 +22,7 @@ console.log(bdetails)
     <>
       <NavbarTwo />
       <PageBanner 
-                    pageTitle={bdetails.PlotNo} 
+                    pageTitle='{bdetails.plotNo}' 
                     BGImage="hero-bg11"
                 />  
     <ServiceDetailsContent bdetails={bdetails}/>
