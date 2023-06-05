@@ -33,6 +33,72 @@ export const plotData = [
       imgUrl:"/images/hero-banner13.jpg"},
       {id:2,
       imgUrl:"/images/hero-banner11.jpg"}
-    ]}
+    ]},
+    {
+      id:3,
+      plotNo: "776 DD Block",
+      size:10,
+      PlotCategory:"Commercial",
+      PlotSite:"General",
+      images:[{id:1,
+        imgUrl:"/images/about-img2.jpg"},
+        {id:2,
+          imgUrl:"/images/hero-banner14.jpg"
+        },
+        {
+          id:3,
+          imgUrl:"/images/hero-banner10.jpg"
+        },
+        {
+          id:4,
+          imgUrl:"/images/hero-banner13.jpg"
+      },
+      {
+        id:5,
+        imgUrl:"/images/hero-banner12.jpg"
+  }
+      ]},
+      {
+        id:4,
+        plotNo: "76 B Block",
+        size:10,
+        PlotCategory:"Commercial",
+        PlotSite:"General",
+        images:[{id:1,
+          imgUrl:"/images/CTA1-bg.jpg"},
+          {id:2,
+            imgUrl:"/images/about-img2.jpg"},
+            {id:2,
+              imgUrl:"/images/hero-banner14.jpg"
+            },
+            {
+              id:3,
+              imgUrl:"/images/hero-banner10.jpg"
+            },
+            {
+              id:4,
+              imgUrl:"/images/hero-banner13.jpg"
+          },]},
+        {
+          id:5,
+          plotNo: "76 B Block",
+          size:20,
+          PlotCategory:"Commercial",
+          PlotSite:"General",
+          images:[{id:1,
+            imgUrl:"/images/blog/blog1.jpg"},
+            {id:2,
+              imgUrl:"/images/about-img2.jpg"},
+              {id:2,
+                imgUrl:"/images/hero-banner14.jpg"
+              },
+              {
+                id:3,
+                imgUrl:"/images/hero-banner10.jpg"
+              },
+              {
+                id:4,
+                imgUrl:"/images/hero-banner13.jpg"
+            },]}
 
 ]

@@ -734,7 +734,7 @@ Navbar CSS
 }
 
 .navbar-area.navbar-style-2 nav .navbar-nav .nav-item a {
-  color: #c9cdf3;
+  color: #ffffff;
 }
 
 .navbar-area.navbar-style-2.is-sticky .navbar-brand {
@@ -1163,7 +1163,8 @@ Main Banner CSS
 }
 
 .hero-slider .swiper-button-prev {
-  left: 30px;
+  margin-left: 0%;
+  left: 2px;
   background: #e5e5e5;
   width: 50px;
   height: 50px;
@@ -1178,7 +1179,7 @@ Main Banner CSS
 }
 
 .hero-slider .swiper-button-next {
-  right: 30px;
+  right: 2px;
   background: #e5e5e5;
   width: 50px;
   height: 50px;
@@ -6734,8 +6735,8 @@ span.new {
     visibility: visible;
 }
 .fleet-grid-box img {
-    width: 100%;
-    height: auto;
+    width: 500px;
+    height: 200px;
 }
 .fleet-grid-box .price-box{
 	position:absolute;
@@ -6771,8 +6772,8 @@ span.new {
 	float:left;
 }
 .fleet-info-box .fleet-info{
-	width:360px;
-	margin-top:40px;
+	width:350px;
+	margin-top:0px;
 	float:left;
 }
 .fleet-info-box  h3,.fleet-list-box .fleet-text h3{
@@ -6791,7 +6792,7 @@ span.new {
 .fleet-list-box .fleet-text ul{
 	list-style:none;
 	margin:0;
-	padding:15px 0 0;
+	padding:5px 0 0;
 	width:100%;
 	float:left;
 }
@@ -6800,19 +6801,19 @@ span.new {
 	display:inline-block;
 	padding:0 16px;
 	color:#666666;
-	font-size:13px;
+	font-size:12px;
 	text-transform:uppercase;
 	line-height:14px;
 	position:relative;
 }
 .fleet-info-box .fleet-info ul li:first-child{
-	padding:0 16px 0 0;
+	padding:0 2px 0 0;
 }
 .fleet-info-box .fleet-info ul li:before,
 .fleet-list-box .fleet-text ul li:before{
 	content:'|';
 	position:absolute;
-	right:-5px;
+	right:-2px;
 }
 .fleet-info-box .fleet-info ul li:last-child:before,
 .fleet-list-box .fleet-text ul li:last-child:before{
@@ -6821,7 +6822,7 @@ span.new {
 }
 .fleet-info-box .fleet-info ul li i,
 .fleet-list-box .fleet-text ul li i{
-	padding-right:6px;
+	padding-right:2px;
 }
 .fleet-info-box  a,
 .fleet-list-box a{

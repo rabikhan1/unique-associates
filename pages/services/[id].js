@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 import { plotData } from '../../public/Data/PlotData';
 import { useEffect, useState } from 'react';
 
-const getBlogDet = (id) => plotData.find((b) => b.id === parseInt(id));
+const getBlogDet = (id) => plotData?.find((b) => b.id === parseInt(id));
 
 export default function serviceDetailpage(){
  
@@ -22,7 +22,7 @@ console.log(bdetails)
     <>
       <NavbarTwo />
       <PageBanner 
-                    pageTitle='{bdetails.plotNo}' 
+                    pageTitle={bdetails.plotNo} 
                     BGImage="hero-bg11"
                 />  
     <ServiceDetailsContent bdetails={bdetails}/>
