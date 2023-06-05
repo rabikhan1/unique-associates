@@ -12,7 +12,8 @@ class ServicesStyleOne extends Component {
                             <div className="col-lg-4 col-sm-6 pt-5">
                                 <div className="fleet-grid-box">
                                     {/*Fleet Grid Thumb Start*/}
-                                    <a href={`/services/${p.id}`}>
+                                    <Link href={`/services/${p.id}`}>
+                                    <a >
                                     <figure className="fleet-thumb">
                                         <img src={p.images[0].imgUrl} width='300' height='10' alt='jjjj' />
                                         {/* <figcaption className="fleet-caption">
@@ -21,6 +22,7 @@ class ServicesStyleOne extends Component {
 </figcaption> */}
                                     </figure>
 </a>
+</Link>
                                     {/*Fleet Grid Thumb End*/}
                                     {/*Fleet Grid Text Start*/}
                                     <div className='row'>
@@ -37,7 +39,9 @@ class ServicesStyleOne extends Component {
                                     </div>
                                     </div>
                                     <div className='col-6' style={{paddingLeft:'23px'}}>
-                                        <a href={`/services/${p.id}`} className="btn btn-primary"> View Details <i className="fa fa-arrow-circle-right" aria-hidden="true" /></a>
+                                    <Link href={`/services/${p.id}`}>
+                                        <a className="btn btn-primary"> View Details <i className="fa fa-arrow-circle-right" aria-hidden="true" /></a>
+                                        </Link>
                                         </div>
                                     </div>
                                     {/*Fleet Grid Text End*/}
