@@ -9,28 +9,36 @@ class ServicesStyleOne extends Component {
                     <div className="container">
                         <div className="row justify-content-center">
                             {plotData.map(p => 
-                            <div className="col-lg-4 col-sm-6">
+                            <div className="col-lg-4 col-sm-6 pt-5">
                                 <div className="fleet-grid-box">
                                     {/*Fleet Grid Thumb Start*/}
+                                    <a href={`/services/${p.id}`}>
                                     <figure className="fleet-thumb">
-                                        <img src={p.images[1].imgUrl} width='300' height='10' alt='jjjj' />
+                                        <img src={p.images[0].imgUrl} width='300' height='10' alt='jjjj' />
                                         {/* <figcaption className="fleet-caption">
 
-                                            <span className="rated">Top Rated</span>
-                                        </figcaption> */}
+<span className="rated">Top Rated</span>
+</figcaption> */}
                                     </figure>
+</a>
                                     {/*Fleet Grid Thumb End*/}
                                     {/*Fleet Grid Text Start*/}
+                                    <div className='row'>
+                                        <div className='col-6'> 
                                     <div className="fleet-info-box">
                                         <div className="fleet-info">
                                             <h3>{p.size} marla Plot</h3>
 
                                             <ul className="fleet-meta">
-                                                <li><i className="fas fa-taxi" />{p.PlotCategory}</li>
-                                                <li><i className="fas fa-user-circle" />{p.PlotSite}</li>
+                                                <li><i className="fas fa-home" />{p.PlotCategory}</li>
+                                                <li><i className="fas fa-compass" />{p.PlotSite}</li>
                                             </ul>
                                         </div>
-                                        <a href={`/services/${p.id}`} className="tj-btn">Book Now <i className="fa fa-arrow-circle-right" aria-hidden="true" /></a>
+                                    </div>
+                                    </div>
+                                    <div className='col-6' style={{paddingLeft:'23px'}}>
+                                        <a href={`/services/${p.id}`} className="btn btn-primary"> View Details <i className="fa fa-arrow-circle-right" aria-hidden="true" /></a>
+                                        </div>
                                     </div>
                                     {/*Fleet Grid Text End*/}
 

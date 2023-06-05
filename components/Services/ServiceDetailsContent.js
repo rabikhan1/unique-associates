@@ -24,98 +24,102 @@ function PortfolioDetailsContent2({ bdetails }) {
                     <div className="col-lg-8 col-md-12 col-sm-12 pt-3 " data-aos="fade-up"
                         data-aos-duration="1200"
                         data-aos-delay="300">
+                            <div className="d-flex justify-content-between">
+
+                            <h1>{bdetails?.PlotCategory}</h1>
                         <h2 > {bdetails?.plotNo}</h2>
+                            </div>
                         <img className="col-lg-13" data-aos="zoom-in-down"
                             data-aos-duration="1200"
                             data-aos-delay="300" src={mainImage} alt='carImg' width='1000' height='400' />
-                       <div >
+                        <div className="pt-1">
 
-                        <Swiper
+                            <Swiper
 
-                            navigation={true}
-                            spaceBetween={1}
-                            slidesPerView={4}
-                            pagination={{
-                                clickable: true,
-                            }}
-                            breakpoints={{
-                                0: {
-                                    slidesPerView: 1,
-                                },
-                                276: {
-                                    slidesPerView: 2,
-                                },
-                                768: {
-                                    slidesPerView: 4 ,
-                                },
-                            }}
-                            mousewheel={true}
-                            keyboard={true}
-                            modules={[Navigation, Mousewheel, Keyboard, Controller]}
-                            className="mySwiper app-screenshots-slides"
-                        >
-
-
-
-                            {bdetails?.images?.map(img =>
-                                <SwiperSlide key={img.id} >
+                                navigation={true}
+                                spaceBetween={1}
+                                slidesPerView={4}
+                                pagination={{
+                                    clickable: true,
+                                }}
+                                breakpoints={{
+                                    0: {
+                                        slidesPerView: 1,
+                                    },
+                                    276: {
+                                        slidesPerView: 3,
+                                    },
+                                    768: {
+                                        slidesPerView: 4,
+                                    },
+                                }}
+                                mousewheel={true}
+                                keyboard={true}
+                                modules={[Navigation, Mousewheel, Keyboard, Controller]}
+                                className="mySwiper hero-slider"
+                            >
 
 
-                                    <img onClick={() => setMainImage(img.imgUrl) + 1} width='250' height='120' src={img.imgUrl} alt="image" data-aos="zoom-out"
-                                        data-aos-duration="1200"
-                                        data-aos-delay="300" />
 
-                                </SwiperSlide>
-                            )}
+                                {bdetails?.images?.map(img =>
+                                    <SwiperSlide key={img.id} >
 
 
-                        </Swiper>
+                                        <img onClick={() => setMainImage(img.imgUrl) + 1} width='250' height='120' src={img.imgUrl} alt="image" data-aos="zoom-out"
+                                            data-aos-duration="1200"
+                                            data-aos-delay="300" />
+
+                                    </SwiperSlide>
+                                )}
+
+
+                            </Swiper>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-12 col-sm-12 pt-3 " >
+                    <div className="col-lg-4 col-md-12 col-sm-12 pt-5 " >
 
                         <div className="row ptb-30" data-aos="fade-up"
                             data-aos-duration="1200"
                             data-aos-delay="300">
-                            <h1 style={{fontSize:'65px'}} className="d-flex justify-content-center pb-50 ">
+                            <h1 style={{ fontSize: '65px' }} className="d-flex justify-content-center pb-50 ">
                                 Features
                             </h1>
-                                    <div className="d-flex justify-content-left">
-                            <div className="col-lg-12 col-md-12 col-sm-12">
-                                <ul style={{ fontSize:'25px', listStyleType: "none" }}>
-                                    <li>
-                                        <span className="icon">
-                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
-                                        </span>
-                                        <span className="spanfont">Corner Plot</span>
-                                    </li>
-                                    <li>
-                                        <span className="icon">
-                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
-                                        </span>
-                                        <span className="spanfont">Facing Park</span>
-                                    </li>
-                                    <li>
-                                        <span className="icon">
-                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
-                                        </span>
-                                        <span className="spanfont">Electricity</span>
-                                    </li>
-                                    {/* <li>
+                            <div className="d-flex justify-content-left">
+                                <div className="col-lg-12 col-md-12 col-sm-12">
+                                    <ul style={{ fontSize: '25px', listStyleType: "none" }}>
+                                        <li>
+                                            <span className="icon">
+                                                <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                            </span>
+                                            <span className="spanfont">Corner Plot</span>
+                                        </li>
+                                        <li>
+                                            <span className="icon">
+                                                <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                            </span>
+                                            <span className="spanfont">Facing Park</span>
+                                        </li>
+                                        <li>
+                                            <span className="icon">
+                                                <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                            </span>
+                                            <span className="spanfont">Electricity</span>
+                                        </li>
+                                        {/* <li>
                                         <span className="icon">
                                             <i className="mkd-icon-font-awesome fa fa-check "></i>
                                         </span>
                                         <span className="spanfont">40ft Road</span>
                                     </li> */}
-                                    <li>
-                                        <span className="icon">
-                                            <i className="mkd-icon-font-awesome fa fa-check "></i>
-                                        </span>
-                                        <span className="spanfont">Gas</span>
-                                    </li>
+                                        <li>
+                                            <span className="icon">
+                                                <i className="mkd-icon-font-awesome fa fa-check "></i>
+                                            </span>
+                                            <span className="spanfont">Gas</span>
+                                        </li>
                                     </ul>
-                            </div>
-                            {/* <div className="col-lg-4 col-md-12 col-sm-12 ">
+                                </div>
+                                {/* <div className="col-lg-4 col-md-12 col-sm-12 ">
                                 <ul style={{ listStyleType: "none" }}>
                                     <li>
                                         <span className="icon">
@@ -155,7 +159,7 @@ function PortfolioDetailsContent2({ bdetails }) {
                                     </li>
                                 </ul>
                             </div> */}
-                            {/* <div className="col-lg-5 col-md-12 col-sm-12">
+                                {/* <div className="col-lg-5 col-md-12 col-sm-12">
                                 <ul style={{ listStyleType: "none" }}>
                                     <li>
                                         <span className="icon">
@@ -199,14 +203,17 @@ function PortfolioDetailsContent2({ bdetails }) {
                         </div>
                     </div>
                 </div>
+                <div>
+                    <h3>Description</h3>
+                    <p></p>
+                </div>
 
-
-                <div className="justify-content-center d-flex others-options pb-4 mb-4"
+                <div className="justify-content-center d-flex others-options pt-4 pb-4 mb-4"
                     data-aos="fade-up"
                     data-aos-duration="1200"
                     data-aos-delay="300">
                     <Link href="/contact">
-                        <a className="btn btn-primary">BOOK NOW</a>
+                        <a className="btn btn-primary">CONTACT US</a>
                     </Link>
                 </div>
             </div>
